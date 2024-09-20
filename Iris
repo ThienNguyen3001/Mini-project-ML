@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNX6Q3iZfW3euT+/zdx0IY9",
+      "authorship_tag": "ABX9TyORg2hNoFdtNp+s2pvUb6Uz",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -23,7 +23,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/ThienNguyen3001/Mini-project-ML/blob/main/Iris/Iris_mini_project_ML.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/ThienNguyen3001/Mini-project-ML/blob/main/Iris\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -53,7 +53,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 1,
+      "execution_count": 37,
       "metadata": {
         "id": "_aSIHAMrRfNk"
       },
@@ -90,12 +90,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 423
+          "height": 424
         },
         "id": "OfryE-6iShWj",
-        "outputId": "56ce5aa9-1772-494e-8ec1-27afcf970777"
+        "outputId": "9cdbda78-666c-48c9-abe8-dc6dd3a408f8"
       },
-      "execution_count": 2,
+      "execution_count": 38,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -131,7 +131,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-47c3fe28-1fef-44ae-81d0-9a456bab3d5a\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-02b53dc7-27ca-486e-baf7-76bb3f3bcd4e\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -253,7 +253,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-47c3fe28-1fef-44ae-81d0-9a456bab3d5a')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-02b53dc7-27ca-486e-baf7-76bb3f3bcd4e')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -305,12 +305,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-47c3fe28-1fef-44ae-81d0-9a456bab3d5a button.colab-df-convert');\n",
+              "        document.querySelector('#df-02b53dc7-27ca-486e-baf7-76bb3f3bcd4e button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-47c3fe28-1fef-44ae-81d0-9a456bab3d5a');\n",
+              "        const element = document.querySelector('#df-02b53dc7-27ca-486e-baf7-76bb3f3bcd4e');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -330,8 +330,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-7e2f6bed-48ea-48e1-8822-f7716422be3e\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-7e2f6bed-48ea-48e1-8822-f7716422be3e')\"\n",
+              "<div id=\"df-e01847b8-c7da-4444-ae35-e79718b2d4a4\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-e01847b8-c7da-4444-ae35-e79718b2d4a4')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -450,14 +450,14 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-7e2f6bed-48ea-48e1-8822-f7716422be3e button');\n",
+              "        document.querySelector('#df-e01847b8-c7da-4444-ae35-e79718b2d4a4 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
               "  </script>\n",
               "</div>\n",
               "\n",
-              "  <div id=\"id_8cc72259-35b2-42da-8dac-7ba88695c935\">\n",
+              "  <div id=\"id_49c337b9-c179-4e5a-b50b-1c42f0abc23f\">\n",
               "    <style>\n",
               "      .colab-df-generate {\n",
               "        background-color: #E8F0FE;\n",
@@ -501,7 +501,7 @@
               "    <script>\n",
               "      (() => {\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#id_8cc72259-35b2-42da-8dac-7ba88695c935 button.colab-df-generate');\n",
+              "        document.querySelector('#id_49c337b9-c179-4e5a-b50b-1c42f0abc23f button.colab-df-generate');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
@@ -522,7 +522,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 2
+          "execution_count": 38
         }
       ]
     },
@@ -537,9 +537,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "deHh7qOLTr65",
-        "outputId": "35c4781b-10e3-4e17-a568-f533ccb5576e"
+        "outputId": "1227acd4-603d-4986-f4b6-65e26d1bf765"
       },
-      "execution_count": 3,
+      "execution_count": 39,
       "outputs": [
         {
           "output_type": "stream",
@@ -603,9 +603,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "0Sq5plHkV00R",
-        "outputId": "09b891be-d095-4595-87b0-dc050d317d27"
+        "outputId": "ff6d6e47-a023-4d1d-ef79-17b9ebd2aa5d"
       },
-      "execution_count": 4,
+      "execution_count": 40,
       "outputs": [
         {
           "output_type": "stream",
@@ -663,9 +663,9 @@
           "height": 507
         },
         "id": "Uvh0gqm3ayIp",
-        "outputId": "a1585711-3b9d-4554-e340-6b98d35040c3"
+        "outputId": "4783bbce-bc5f-4aa5-9dd5-ec4b8e83eb10"
       },
-      "execution_count": 5,
+      "execution_count": 41,
       "outputs": [
         {
           "output_type": "display_data",
@@ -713,9 +713,9 @@
           "height": 727
         },
         "id": "D0qKz5Uzdl90",
-        "outputId": "82937dd1-6976-4827-d691-ae8d6709f169"
+        "outputId": "e339b301-b81a-4721-8f3a-79aa73dc17e5"
       },
-      "execution_count": 6,
+      "execution_count": 42,
       "outputs": [
         {
           "output_type": "display_data",
@@ -749,9 +749,9 @@
           "height": 175
         },
         "id": "IDoqsDzqmFkf",
-        "outputId": "04af8d9e-79c6-42f9-9cd5-785e95af6562"
+        "outputId": "25a3e9e1-ca06-4386-b2f5-ab74639c6ac4"
       },
-      "execution_count": 7,
+      "execution_count": 43,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -771,7 +771,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-52d91d8e-e6c7-415c-90e3-d5774dd2f2b2\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-bc9e4e0c-bb0f-4b29-a61a-130c588e9d08\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -831,7 +831,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-52d91d8e-e6c7-415c-90e3-d5774dd2f2b2')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-bc9e4e0c-bb0f-4b29-a61a-130c588e9d08')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -883,12 +883,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-52d91d8e-e6c7-415c-90e3-d5774dd2f2b2 button.colab-df-convert');\n",
+              "        document.querySelector('#df-bc9e4e0c-bb0f-4b29-a61a-130c588e9d08 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-52d91d8e-e6c7-415c-90e3-d5774dd2f2b2');\n",
+              "        const element = document.querySelector('#df-bc9e4e0c-bb0f-4b29-a61a-130c588e9d08');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -908,8 +908,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-a29e8220-6f8b-4c28-acea-72df8a910520\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-a29e8220-6f8b-4c28-acea-72df8a910520')\"\n",
+              "<div id=\"df-e78524c9-8445-4462-a9ea-5de46d056599\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-e78524c9-8445-4462-a9ea-5de46d056599')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -1028,7 +1028,7 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-a29e8220-6f8b-4c28-acea-72df8a910520 button');\n",
+              "        document.querySelector('#df-e78524c9-8445-4462-a9ea-5de46d056599 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
@@ -1044,7 +1044,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 7
+          "execution_count": 43
         }
       ]
     },
@@ -1059,9 +1059,9 @@
           "height": 560
         },
         "id": "ktoScmojujvD",
-        "outputId": "33fe59a1-ab92-4926-e6fe-29621cd6e956"
+        "outputId": "0b002d82-ed54-41d6-d8bd-f7084e479ebb"
       },
-      "execution_count": 8,
+      "execution_count": 44,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1071,7 +1071,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 8
+          "execution_count": 44
         },
         {
           "output_type": "display_data",
@@ -1105,12 +1105,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 423
+          "height": 424
         },
         "id": "raNRK3l0Frlh",
-        "outputId": "ebcc4e84-e6bc-4db8-eac9-e84b320acdde"
+        "outputId": "ba0e6cfb-1631-4016-e003-525f02df2e3b"
       },
-      "execution_count": 9,
+      "execution_count": 45,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1146,7 +1146,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-b9ca0772-fd23-4a85-9fbf-2fc828e60fb2\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-d7b9a0fa-1e64-4275-9293-ea4262fddb25\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -1268,7 +1268,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-b9ca0772-fd23-4a85-9fbf-2fc828e60fb2')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-d7b9a0fa-1e64-4275-9293-ea4262fddb25')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -1320,12 +1320,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-b9ca0772-fd23-4a85-9fbf-2fc828e60fb2 button.colab-df-convert');\n",
+              "        document.querySelector('#df-d7b9a0fa-1e64-4275-9293-ea4262fddb25 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-b9ca0772-fd23-4a85-9fbf-2fc828e60fb2');\n",
+              "        const element = document.querySelector('#df-d7b9a0fa-1e64-4275-9293-ea4262fddb25');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -1345,8 +1345,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "<div id=\"df-ce49efaa-0700-4651-b683-8c25a7ec3a42\">\n",
-              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-ce49efaa-0700-4651-b683-8c25a7ec3a42')\"\n",
+              "<div id=\"df-bfd6494e-70ab-46ad-aa72-441845396851\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-bfd6494e-70ab-46ad-aa72-441845396851')\"\n",
               "            title=\"Suggest charts\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -1465,14 +1465,14 @@
               "    }\n",
               "    (() => {\n",
               "      let quickchartButtonEl =\n",
-              "        document.querySelector('#df-ce49efaa-0700-4651-b683-8c25a7ec3a42 button');\n",
+              "        document.querySelector('#df-bfd6494e-70ab-46ad-aa72-441845396851 button');\n",
               "      quickchartButtonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "    })();\n",
               "  </script>\n",
               "</div>\n",
               "\n",
-              "  <div id=\"id_c420a079-c3f1-4f01-8c45-ce2402f1d08f\">\n",
+              "  <div id=\"id_f805b8bc-d5e1-4268-b42d-fa00290d9663\">\n",
               "    <style>\n",
               "      .colab-df-generate {\n",
               "        background-color: #E8F0FE;\n",
@@ -1516,7 +1516,7 @@
               "    <script>\n",
               "      (() => {\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#id_c420a079-c3f1-4f01-8c45-ce2402f1d08f button.colab-df-generate');\n",
+              "        document.querySelector('#id_f805b8bc-d5e1-4268-b42d-fa00290d9663 button.colab-df-generate');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
@@ -1537,7 +1537,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 9
+          "execution_count": 45
         }
       ]
     },
@@ -1569,7 +1569,7 @@
       "metadata": {
         "id": "mHCJVCyqF9P_"
       },
-      "execution_count": 10,
+      "execution_count": 46,
       "outputs": []
     },
     {
@@ -1579,13 +1579,13 @@
         "from sklearn.neighbors import KNeighborsClassifier\n",
         "from sklearn.svm import SVC\n",
         "from sklearn.tree import DecisionTreeClassifier\n",
-        "from sklearn.naive_bayes import GaussianNB\n",
+        "from sklearn.naive_bayes import GaussianNB, MultinomialNB\n",
         "from sklearn.metrics import classification_report"
       ],
       "metadata": {
         "id": "EnCFMjFnGRq_"
       },
-      "execution_count": 11,
+      "execution_count": 47,
       "outputs": []
     },
     {
@@ -1598,7 +1598,7 @@
       "metadata": {
         "id": "cnvPY6ROGjyS"
       },
-      "execution_count": 12,
+      "execution_count": 48,
       "outputs": []
     },
     {
@@ -1620,7 +1620,7 @@
       "metadata": {
         "id": "vb8vJs-1HEgh"
       },
-      "execution_count": 13,
+      "execution_count": 49,
       "outputs": []
     },
     {
@@ -1634,9 +1634,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "G56aWTrRHMgZ",
-        "outputId": "6cf57e63-a445-41e5-a860-961ec7fafc30"
+        "outputId": "22386a46-e2a0-467c-edc2-c1075c2daf6f"
       },
-      "execution_count": 24,
+      "execution_count": 50,
       "outputs": [
         {
           "output_type": "stream",
@@ -1644,15 +1644,15 @@
           "text": [
             "              precision    recall  f1-score   support\n",
             "\n",
-            "           0       1.00      1.00      1.00        19\n",
-            "           1       1.00      0.93      0.96        14\n",
-            "           2       0.92      1.00      0.96        12\n",
+            "           0       1.00      1.00      1.00        16\n",
+            "           1       1.00      0.86      0.92        14\n",
+            "           2       0.88      1.00      0.94        15\n",
             "\n",
-            "    accuracy                           0.98        45\n",
-            "   macro avg       0.97      0.98      0.97        45\n",
-            "weighted avg       0.98      0.98      0.98        45\n",
+            "    accuracy                           0.96        45\n",
+            "   macro avg       0.96      0.95      0.95        45\n",
+            "weighted avg       0.96      0.96      0.96        45\n",
             "\n",
-            "0.9761904761904763\n"
+            "0.9523809523809524\n"
           ]
         }
       ]
@@ -1667,16 +1667,25 @@
       }
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "### Khoảng cách Manhattan"
+      ],
+      "metadata": {
+        "id": "tZRoFtpz20iy"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
-        "KNN_model = KNeighborsClassifier()\n",
+        "KNN_model = KNeighborsClassifier(metric = 'manhattan')\n",
         "KNN_model.fit(X_train, y_train)\n",
         "KNN_pred = KNN_model.predict(X_test)"
       ],
       "metadata": {
         "id": "_KOBeW__IC0t"
       },
-      "execution_count": 26,
+      "execution_count": 51,
       "outputs": []
     },
     {
@@ -1690,9 +1699,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "IWp8hVHxII6F",
-        "outputId": "cbfcd813-fee4-4273-b810-4055fb906858"
+        "outputId": "bcbe91bf-cffa-4669-b210-c01dd8e36d0a"
       },
-      "execution_count": 27,
+      "execution_count": 52,
       "outputs": [
         {
           "output_type": "stream",
@@ -1700,15 +1709,192 @@
           "text": [
             "              precision    recall  f1-score   support\n",
             "\n",
-            "           0       1.00      1.00      1.00        19\n",
-            "           1       0.92      0.86      0.89        14\n",
-            "           2       0.85      0.92      0.88        12\n",
+            "           0       1.00      1.00      1.00        16\n",
+            "           1       0.93      0.93      0.93        14\n",
+            "           2       0.93      0.93      0.93        15\n",
             "\n",
-            "    accuracy                           0.93        45\n",
-            "   macro avg       0.92      0.92      0.92        45\n",
-            "weighted avg       0.94      0.93      0.93        45\n",
+            "    accuracy                           0.96        45\n",
+            "   macro avg       0.95      0.95      0.95        45\n",
+            "weighted avg       0.96      0.96      0.96        45\n",
             "\n",
-            "0.9246031746031745\n"
+            "0.953968253968254\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### Khoảng cách Euclid"
+      ],
+      "metadata": {
+        "id": "WitkVY-z27Ap"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "KNN_model = KNeighborsClassifier(metric = 'euclidean')\n",
+        "KNN_model.fit(X_train, y_train)\n",
+        "KNN_pred = KNN_model.predict(X_test)"
+      ],
+      "metadata": {
+        "id": "VF3rr8pV2_0d"
+      },
+      "execution_count": 53,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(classification_report(y_test, KNN_pred))\n",
+        "print(balanced_accuracy_score(y_test, KNN_pred))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QXyc8LJi3Bmo",
+        "outputId": "4fd4734f-ea75-47b9-a944-5e1f632366ec"
+      },
+      "execution_count": 54,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "              precision    recall  f1-score   support\n",
+            "\n",
+            "           0       1.00      1.00      1.00        16\n",
+            "           1       1.00      0.93      0.96        14\n",
+            "           2       0.94      1.00      0.97        15\n",
+            "\n",
+            "    accuracy                           0.98        45\n",
+            "   macro avg       0.98      0.98      0.98        45\n",
+            "weighted avg       0.98      0.98      0.98        45\n",
+            "\n",
+            "0.9761904761904763\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Naive Bayes Classifiers"
+      ],
+      "metadata": {
+        "id": "iwQkl5FrJdx2"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### GaussianNB"
+      ],
+      "metadata": {
+        "id": "woUlS_Xu4FUF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "NBC_model = GaussianNB()\n",
+        "NBC_model.fit(X_train, y_train)\n",
+        "NBC_pred = NBC_model.predict(X_test)"
+      ],
+      "metadata": {
+        "id": "SgewNSB1JdCb"
+      },
+      "execution_count": 55,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(classification_report(y_test, NBC_pred))\n",
+        "print(balanced_accuracy_score(y_test, NBC_pred))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "j3Sk8zd4J0iF",
+        "outputId": "bf7a0f0d-8cab-4b21-9a01-96e767016104"
+      },
+      "execution_count": 56,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "              precision    recall  f1-score   support\n",
+            "\n",
+            "           0       1.00      1.00      1.00        16\n",
+            "           1       0.93      0.93      0.93        14\n",
+            "           2       0.93      0.93      0.93        15\n",
+            "\n",
+            "    accuracy                           0.96        45\n",
+            "   macro avg       0.95      0.95      0.95        45\n",
+            "weighted avg       0.96      0.96      0.96        45\n",
+            "\n",
+            "0.953968253968254\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### MultinomialNB"
+      ],
+      "metadata": {
+        "id": "u1uqPquG4I-M"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "NBC_model = MultinomialNB()\n",
+        "NBC_model.fit(X_train, y_train)\n",
+        "NBC_pred = NBC_model.predict(X_test)"
+      ],
+      "metadata": {
+        "id": "KFuHNYYj4MeN"
+      },
+      "execution_count": 57,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(classification_report(y_test, NBC_pred))\n",
+        "print(balanced_accuracy_score(y_test, NBC_pred))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2_Q0ek9c4OAs",
+        "outputId": "8d204bd2-e7f6-48a5-c065-ec68c4435e1e"
+      },
+      "execution_count": 58,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "              precision    recall  f1-score   support\n",
+            "\n",
+            "           0       1.00      1.00      1.00        16\n",
+            "           1       0.81      0.93      0.87        14\n",
+            "           2       0.92      0.80      0.86        15\n",
+            "\n",
+            "    accuracy                           0.91        45\n",
+            "   macro avg       0.91      0.91      0.91        45\n",
+            "weighted avg       0.92      0.91      0.91        45\n",
+            "\n",
+            "0.9095238095238095\n"
           ]
         }
       ]
@@ -1732,7 +1918,7 @@
       "metadata": {
         "id": "o8Pte5dRJCXn"
       },
-      "execution_count": 17,
+      "execution_count": 59,
       "outputs": []
     },
     {
@@ -1746,9 +1932,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "d7hz2v_GJGHh",
-        "outputId": "d1179feb-be6f-42f0-97c8-a7d65cea6f43"
+        "outputId": "2aabdbf3-87fa-4eb0-b7d0-34a95989224c"
       },
-      "execution_count": 28,
+      "execution_count": 60,
       "outputs": [
         {
           "output_type": "stream",
@@ -1756,68 +1942,12 @@
           "text": [
             "              precision    recall  f1-score   support\n",
             "\n",
-            "           0       1.00      1.00      1.00        19\n",
-            "           1       0.85      0.79      0.81        14\n",
-            "           2       0.77      0.83      0.80        12\n",
-            "\n",
-            "    accuracy                           0.89        45\n",
-            "   macro avg       0.87      0.87      0.87        45\n",
-            "weighted avg       0.89      0.89      0.89        45\n",
-            "\n",
-            "0.873015873015873\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "## Naive Bayes Classifiers"
-      ],
-      "metadata": {
-        "id": "iwQkl5FrJdx2"
-      }
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "NBC_model = GaussianNB()\n",
-        "NBC_model.fit(X_train, y_train)\n",
-        "NBC_pred = NBC_model.predict(X_test)"
-      ],
-      "metadata": {
-        "id": "SgewNSB1JdCb"
-      },
-      "execution_count": 19,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(classification_report(y_test, NBC_pred))\n",
-        "print(balanced_accuracy_score(y_test, NBC_pred))"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "j3Sk8zd4J0iF",
-        "outputId": "2c2ae392-4d9e-42e5-e0d0-266e9fd4d24d"
-      },
-      "execution_count": 29,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "              precision    recall  f1-score   support\n",
-            "\n",
-            "           0       1.00      1.00      1.00        19\n",
+            "           0       1.00      1.00      1.00        16\n",
             "           1       1.00      0.86      0.92        14\n",
-            "           2       0.86      1.00      0.92        12\n",
+            "           2       0.88      1.00      0.94        15\n",
             "\n",
             "    accuracy                           0.96        45\n",
-            "   macro avg       0.95      0.95      0.95        45\n",
+            "   macro avg       0.96      0.95      0.95        45\n",
             "weighted avg       0.96      0.96      0.96        45\n",
             "\n",
             "0.9523809523809524\n"
@@ -1844,7 +1974,7 @@
       "metadata": {
         "id": "kls-gRavKRk3"
       },
-      "execution_count": 21,
+      "execution_count": 61,
       "outputs": []
     },
     {
@@ -1858,9 +1988,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "FtIrmmE7KUFc",
-        "outputId": "adddb03f-13ea-4b49-9484-9464c02b94ba"
+        "outputId": "ae561417-fb93-4509-8a9c-1da7d1876b72"
       },
-      "execution_count": 30,
+      "execution_count": 62,
       "outputs": [
         {
           "output_type": "stream",
@@ -1868,15 +1998,15 @@
           "text": [
             "              precision    recall  f1-score   support\n",
             "\n",
-            "           0       1.00      1.00      1.00        19\n",
-            "           1       0.93      0.93      0.93        14\n",
-            "           2       0.92      0.92      0.92        12\n",
+            "           0       1.00      1.00      1.00        16\n",
+            "           1       0.92      0.86      0.89        14\n",
+            "           2       0.88      0.93      0.90        15\n",
             "\n",
-            "    accuracy                           0.96        45\n",
-            "   macro avg       0.95      0.95      0.95        45\n",
-            "weighted avg       0.96      0.96      0.96        45\n",
+            "    accuracy                           0.93        45\n",
+            "   macro avg       0.93      0.93      0.93        45\n",
+            "weighted avg       0.93      0.93      0.93        45\n",
             "\n",
-            "0.9484126984126985\n"
+            "0.9301587301587301\n"
           ]
         }
       ]
